@@ -1,0 +1,574 @@
+.wrapper {
+width: 1600px;
+margin: 0 auto;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+background-size: cover;
+}
+
+.container {
+position: relative;
+background: url('./assets/Images/bg-image.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 744px;
+font-size: 100%;
+font: inherit;
+position: absolute;
+left: 0px;
+right: 0px;
+top: -22px;
+bottom: -22px;
+}
+
+.header {
+    
+    margin-left: 502px;
+    margin-right: 515px;
+    width: 583px;
+    height: 95px;
+    background: tomato;
+}
+
+.nav {
+   
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 25px; /* Поля вокруг текста */            
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.nav li a{  
+ 
+font-family: Roboto;
+display: inline-block;    
+font-size: 14px;
+color: #FFFFFF;
+opacity: 0.8;
+text-decoration: none;
+}
+
+.firstEl {
+    /*color: white;
+     height: 21px;*/
+ font-size: 14px;
+ color: white;
+ text-decoration: underline;
+ }
+
+.logo {
+    margin: 0 15px;      
+    }
+
+.TextYouLife {
+margin: auto 0;
+position: absolute;
+left: calc(50% - 730px/2);
+top: calc(50% - 75px/2 - 104.5px);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 4.5px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.TextDescription {
+position: absolute;
+margin-left: 36px;
+width: 504px;
+height: 50px;
+left: calc(50% - 504px/2);
+top: calc(50% - 50px/2 - 22px);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+color: #FFFFFF;
+}
+
+.social {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: calc(50% - 170px/2);
+    bottom: 90px;
+    display: flex;
+    list-style: none;
+}
+
+/* Auto Layout */
+.GetStarted button{
+margin-left: 50px;
+display: inherit;
+flex-direction: row;
+position: absolute;
+width: 184px;
+height: 46px;
+left: calc(50% - 184px/2);
+top: calc(50% - 46px/2 + 56px);
+background: #00AFDB;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+/* Auto Layout */
+.GetStarted button:hover {
+   
+    background:  #009CC2;
+    color: #FFFFFF;
+    }
+
+.social li a {
+padding: 14px;    
+}
+
+.Rappresent {
+position: absolute;
+width: 1600px;
+height: 842px;
+left: 0px;
+top: 744px;
+}
+
+.text {
+padding: 244px 964px 0px 269px;    
+position: absolute;
+width: 367px;
+height: 57px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #373737;
+}
+
+.img2 {
+    margin: 9px 0px 0 85px;
+position: absolute;
+width: 407px;
+height: 582px;
+left: 924px;
+top: 120px;
+}
+
+.butGetStarted2 {
+margin: 265px 964px 0px 269px; 
+display: inherit;
+flex-direction: row;
+padding: 15px 0px;
+position: absolute;
+width: 184px;
+height: 46px;
+left: 0px;
+top: 187px;
+background: #00AFDB;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.text2 {
+padding: 242px 964px 0px 269px; 
+position: absolute;
+width: 407px;
+height: 80px;
+left: 0px;
+top: 77px;
+
+/* body-14-reg */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+
+color: #4E4E4E;
+}
+
+
+.OurCommunity {
+position: absolute;
+width: 1600px;
+height: 504px;
+left: 0px;
+top: 1670px;
+background: #F5F6F7;
+}
+
+.OcIm2 {
+position: absolute;
+width: 894px;
+height: 244px;
+left: 287px;
+bottom: -152px;
+}
+.OZtext {
+position: absolute;
+width: 298px;
+height: 80px;
+left: calc(50% - 298px/2);
+top: 26px;
+/* body-14-reg */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+.OcZag {
+margin: 20px;
+
+}
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+}
+
+.main {
+position: absolute;
+left: 335px;
+margin-top: -6px;
+}
+
+.numStr {
+    margin: -84px 10px -59px 1118px;
+    display: flex;
+}
+
+.numStr li {
+    position: relative;
+    width: 22px; /* Ширина слоя */
+    display: flex;
+    text-decoration: none;
+}
+
+.numStr li:nth-child(1):hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.numStr li:nth-child(5):hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.OcIm {
+    left: 50px;
+    margin-left: 388px;
+    padding-top: 111px;
+}
+
+.Implement {
+position: absolute;
+width: 1600px;
+height: 842px;
+}
+
+.imgImplement {
+position: absolute;
+width: 407px;
+height: 582px;
+margin : 2132px 924px 155px 269px;
+}
+
+.contImplement {
+position: absolute;
+width: 407px;
+height: 184px;
+margin : 2287px 378px 339px 815px;
+}
+
+.contImplement li:nth-child(1) {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 58px;
+align-items: flex-end;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #373737;
+}
+
+.contImplement li:nth-child(2) { 
+position: absolute;
+font-family: Roboto;
+color: #4E4E4E;
+}
+
+.contImplement li:nth-child(3) { 
+margin-top: 79px;
+}
+
+
+  .contImplement button  {
+    /* Auto Layout */
+display: inherit;
+flex-direction: row;
+position: absolute;
+width: 180px;
+height: 46px;
+background: #00AFDB;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: center;
+cursor: pointer;
+}
+
+
+.contImplement li {
+list-style: none;}
+
+.SignUp {
+background: url('./assets/Images/signup.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+width: 1600px;
+height: 524px;
+top: 2932px;
+}
+
+.contSignUp {
+    margin: 215px 663px 540px 558px;
+}
+
+.contSignUp ul li:nth-child(1){
+width: 500px;
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: block;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-overflow: clip
+
+}
+
+
+.contSignUp ul li:nth-child(2){
+margin: 24px 1px 21px 71px;  
+position: absolute;
+width: 340px;
+background: #FFFFFF;
+border-radius: 0px;
+  
+    }
+
+.butCool{
+    background: url(/assets/Images/check-icon.png);
+    background-repeat: no-repeat;
+    background-color: #00afdb;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    width: 66px;
+    height: 50px; 
+    margin: 24px 11px 13px 411px;
+}
+
+    input[type=text] {
+        height: 50px;
+        }
+
+.download {
+position: absolute;
+width: 1600px;
+height: 464px;
+flex-direction: column;
+align-items: center;
+display: flex;
+padding-bottom: 179px;
+background-color: #f5f6f7;
+top: 3456px;
+padding-top: 300px;
+}
+
+.download__title {
+    width: 500px;
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+   }
+
+.download__description {
+    width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+.download__buttons {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.download__buttons-apple-text {
+    font-family: "RobotoBold";
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 127px;
+    height: 31px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00afdb;
+}
+
+.download__buttons-apple-text:hover {
+    background-color: #009cc2;  
+}
+
+.download__buttons-android-text:hover {
+    background-color: #009cc2;  
+}
+
+
+.download__buttons-apple-icon {
+    width: 59px;
+    height: 46px;
+    background: url(assets/Images/apple.png);
+    background-color: #009cc2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.download__buttons-apple {
+    padding-left: 49px;
+}
+
+.download__buttons-apple, .download__buttons-android {
+    display: flex;
+}
+
+.download__buttons-android-text {
+    font-family: "RobotoBold";
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 127px;
+    height: 31px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00afdb;
+}
+
+.download__buttons-android-icon {
+    width: 59px;
+    height: 46px;
+    background: url(assets/Images/android.png);
+    background-color: #009cc2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #000;
+    margin: 4269px -481px -3px 0px;
+}
+
+.footer__navigation {
+    margin-top: 64px;
+    margin-left: 146px;
+    margin-right: 361px;
+    width: 272px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.footer__navigation-list li {
+    display: inline;
+    color: #FFFFFF;
+}
+
+.footer__navigation-list li a {
+    display: inline;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+footer__navigation ul {
+    list-style: none;
+}
+
+.footer__logo {
+    margin-top: 61px;
+    margin-right: 448px;
+    margin-bottom: 81px;
+}
+
+.footer__text {
+    min-width: 170px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c4c4c4;
+    margin-top: 73px;
+}
+
+.footer__navigation li:not(:first-child):before {
+    content: " | ";
+    color: #c4c4c4;
+}
